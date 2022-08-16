@@ -1,0 +1,105 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html,body{
+  height: 100%;
+}
+.fieldInput {
+    display: block;
+    margin: 70px auto;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.09);
+    border-radius: 35px;
+    overflow: hidden;
+}
+    .form-input {
+      width: 200px;
+      background: none;
+      border: none;
+      padding: 12px 20px;
+      font-size: 15px;
+      color: #6A7C92;
+    }
+      .form-input:focus {
+        outline: none;
+      }
+    
+    .form-submit {
+      font-size: 12px;
+      color:black;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 70px;
+      height: 40px;
+      border-radius: 17px;
+      border: none;
+      background: #90ee90;
+      box-shadow: 5px -2px 81px 1px rgba(0,0,0,0.09);
+      cursor: pointer;
+    }
+  h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  section{
+    margin-bottom: 2%;
+    margin-left: 40%;
+    border: 1px solid black;
+    height: 4%;
+    width: 20%;
+    color: #6A7C92;
+    border-radius: 17px;
+    box-shadow: 5px -2px 81px 1px rgba(0,0,0,0.09);
+    margin-top: -1%;
+  }
+  h2{
+    padding: 7px 18px;
+  }
